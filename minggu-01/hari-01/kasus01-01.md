@@ -1,6 +1,6 @@
 # panduan-umum-Praxis-Academy
 
-#kasus 01-01
+# kasus 01-01
 
 for (let n = 1; n <= 100; n++) { 
 let output = ""; if (n % 3 == 0) 
