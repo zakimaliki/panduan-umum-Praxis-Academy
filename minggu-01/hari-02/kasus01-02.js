@@ -133,7 +133,7 @@ readMessages.add(messages[0]);
 // readMessages still has 2 unique elements
 
 // answer: was the message[0] read?
-alert("Read message 0: " + readMessages.has(messages[0])); // true
+//alert("Read message 0: " + readMessages.has(messages[0])); // true
 
 messages.shift();
 // now readMessages has 1 element (technically memory may be cleaned later)
@@ -152,7 +152,7 @@ readMap.set(messages[0], new Date(2017, 1, 1));
 // 11. Create a date
 
 let d = new Date(2012, 1, 20, 3, 12);
-alert( d );
+//alert( d );
 
 //12. Show a weekday
 
@@ -203,9 +203,9 @@ function getLastDayOfMonth(year, month) {
   return date.getDate();
 }
 
-alert( getLastDayOfMonth(2012, 0) ); // 31
-alert( getLastDayOfMonth(2012, 1) ); // 29
-alert( getLastDayOfMonth(2013, 1) ); // 28
+// alert( getLastDayOfMonth(2012, 0) ); // 31
+// alert( getLastDayOfMonth(2012, 1) ); // 29
+// alert( getLastDayOfMonth(2013, 1) ); // 28
 
 //15. How many seconds has passed today?
 
@@ -219,7 +219,7 @@ function getSecondsToday() {
   return Math.round(diff / 1000); // make seconds
 }
 
-alert( getSecondsToday() );
+//alert( getSecondsToday() );
 
 // alternatif 
 
