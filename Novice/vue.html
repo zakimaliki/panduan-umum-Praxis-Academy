@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Belajar Vue</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>{{ message }}</h1>
+    <h2>{{deliver}}</h2>
+    <h2>{{name}}</h2>
+    <h2>{{age}}</h2>
+    <h2>{{gender}}</h2>
+    <h2>{{hobby}}</h2>
+    <h2>{{children}}</h2>
+  </div>
+  <script type="text/javascript">
+  var vm = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello world!',
+      deliver: "saya",
+      name: 'Hafid', // string
+      age: 33, // integer
+      gender: true, // boolean (Pria)
+      hobby: ['coding','sleeping'], // array
+      children: {
+      1: 'Ammar',
+      2: 'Faqih',
+      3: 'Syamil'
+} // object
+    }
+})
+  </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <script language="JavaScript">
+        var map = new Map();
+        map.set('cat', 'kucing');
+        map.set('dragon', 'naga');
+    	function showInput() {
+    	var a=(document.getElementById("user_input").value)
+    	a=a.toLowerCase()
+    	var b=this.map.get(a)
+    	if(b==undefined){
+    	    b="silakan masukan data baru pada form input baru"
+    	}
+        document.getElementById('display').innerHTML = b
+    }
+    function addInput() {
+    	var a=(document.getElementById("user_input_kata").value)
+    	c=a.toLowerCase().split(',')
+    	var b=c
+        document.getElementById('display').innerHTML = "tambah "+b  
+        return this.map.set(c[0],c[1])
+    }
+  	</script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="mamicamp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kasmus</title>
+</head>
+<body>
+	<section class="container day2">
+	    <div class="login-page day2">
+	        <form>
+	            <label class="font-day3">Input: </label>
+	            <input class="user_input" type="text" name="message" id="user_input">
+	       </form>
+	       <input type="submit" onclick="showInput();"><br/>
+    	</div>
+	</section> 
+	<section class="container day2">
+	    <br/>
+	    <div class="login-page day2">Terjemahan: <div id='display'></div></div>
+	</section>
+	<section class="container day2">
+	    <div class="login-page day2">
+	        <form>
+	            <label class="font-day3">Input (inggris, indonesia):</label>
+	            <br/>
+	            <input class="user_input" type="text" name="message" id="user_input_kata">
+	       </form>
+	       <input type="submit" onclick="addInput();"><br/>
+    	</div>
+	</section>
+
+</body>
+</html>
