@@ -1,3 +1,12 @@
+# Ekosistem dan Pemrograman Dasar JavaScript
+
+## Author : Zaki Maliki
+### Minggu 01
+
+*Hari 1*
+
+- Ringkasan materi
+
 1. Development tools dan komponen-kompponennya.
 
 	Komponen dari [peranti pengembangan (*development tools*)](https://en.wikipedia.org/wiki/Programming_tool).
@@ -20,7 +29,11 @@
 
 	[Instalasi Node.js](https://github.com/nodejs/help/wiki/Installation)
 	[Introduction to `npm` and basic `npm` commands](https://medium.com/beginners-guide-to-mobile-web-development/introduction-to-npm-and-basic-npm-commands-18aa16f69f6b) menjelaskan tentang dasar-dasar penggunaan npm untuk mengelola paket. 
-	
+
     * Konstruksi dasar bahasa pemrograman JavaScript
 
     [JavaScript basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) memberikan gambaran singkat tentang konstruksi dasar dari JavaScript untuk sisi front end.
+
+- Jadi pada pertemuan minggu pertama hari pertama kita membahas tentang Ekosistem dan Pemrograman Dasar JavaScript, yang mana kita akan di ajarkan tantang Development tools dan komponen-kompponennya,Ekosisitem JavaScript: ES, JS, Node.js, Browser, HTML, CSS, dan juga Dasar-dasar JavaScript.
+
+- MIT Lisence
