@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error Handling</title>
+    </head>
+    <body>
+        <script>
+            function tambah(a,b){
+                if (typeof a!=='number' || typeof b!=='number'){
+                    throw Error('parameter harus angka')
+                }
+                return a+b;
+            }
+
+            try{
+                const hasil = tambah(1,'2')
+                console.log(`hasilnya adalah ${hasil}`)
+            }catch(er){
+                console.log(er)
+            }finally{
+                console.log('selesai')
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM</title>
+    </head>
+    <body>
+        <div>
+            <input type="text" id="nama" placeholder="Nama kamu ..."/>
+            <p>
+                <h1 id="tampil-nama">Halo</h1>
+            </p>
+        </div>
+        <script>
+            const inputNama=document.getElementById('nama')
+            const tampilNama=document.getElementById('tampil-nama')
+
+            inputNama.addEventListener('keyup',(evt)=>{
+                const {value} = evt.target
+                tampilNama.innerHTML=`Halo,  ${value}`
+            })
+        </script>
+    </body>
+</html>
