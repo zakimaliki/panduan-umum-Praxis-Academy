@@ -34,6 +34,7 @@
 
     [JavaScript basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) memberikan gambaran singkat tentang konstruksi dasar dari JavaScript untuk sisi front end.
 
-- Jadi pada pertemuan minggu pertama hari pertama kita membahas tentang Ekosistem dan Pemrograman Dasar JavaScript, yang mana kita akan di ajarkan tantang Development tools dan komponen-kompponennya,Ekosisitem JavaScript: ES, JS, Node.js, Browser, HTML, CSS, dan juga Dasar-dasar JavaScript.
+- penjelasan Repo
+  Jadi pada pertemuan minggu pertama hari pertama kita membahas tentang Ekosistem dan Pemrograman Dasar JavaScript, yang mana kita akan di ajarkan tantang Development tools dan komponen-kompponennya,Ekosisitem JavaScript: ES, JS, Node.js, Browser, HTML, CSS, dan juga Dasar-dasar JavaScript.
 
 - [MIT Lisence](https://github.com/zakimaliki/panduan-umum-Praxis-Academy/blob/master/LICENSE)
