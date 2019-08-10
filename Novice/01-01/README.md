@@ -36,4 +36,4 @@
 
 - Jadi pada pertemuan minggu pertama hari pertama kita membahas tentang Ekosistem dan Pemrograman Dasar JavaScript, yang mana kita akan di ajarkan tantang Development tools dan komponen-kompponennya,Ekosisitem JavaScript: ES, JS, Node.js, Browser, HTML, CSS, dan juga Dasar-dasar JavaScript.
 
-- [MIT Lisence] (01-01/kemampuan-dasar/LICENSE)
+- [MIT Lisence](01-01/kemampuan-dasar/LICENSE)
